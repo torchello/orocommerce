@@ -13,14 +13,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/orocrm/platform.git"
-        },
-        {
-            "type": "composer",
-            "url": "http://packagist.orocrm.com"
         }
     ],
     "require": {
-        "oro/platform": "1.x-dev"
+        "oro/platform": "dev-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
