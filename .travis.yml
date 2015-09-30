@@ -10,7 +10,7 @@ cache:
     - $HOME/.composer/cache
 
 before_install:
-  - sudo apt-get install ant-contrib
+  - sudo apt-get -y install ant-contrib
   - composer self-update
   - phpenv config-add travis.php.ini
 
