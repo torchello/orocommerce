@@ -40,6 +40,8 @@
             <pathelement location="/usr/share/java/lib/ant-contrib-0.3.jar"/>
             <!-- RedHat/CentOS/Fedora -->
             <pathelement location="/usr/share/java/ant/ant-contrib.jar"/>
+            <!-- Ubuntu -->
+            <pathelement location="/usr/share/java/ant-contrib.jar"/>
         </classpath>
     </taskdef>
 
