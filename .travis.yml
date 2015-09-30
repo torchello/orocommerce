@@ -13,7 +13,8 @@ before_install:
   - composer self-update
   - phpenv config-add travis.php.ini
 
-install:
-  - composer install
+#install:
+#  - composer install
 
-script: phpunit --testsuite="Project Unit Tests"
+#script: phpunit --testsuite="Project Unit Tests"
+script: ant -f build_config/build.xml unit-tests code-standards
